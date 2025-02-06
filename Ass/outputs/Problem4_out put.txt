@@ -1,0 +1,142 @@
+-----------------------------------------------------------
+$ ./pi-serial 5000000000 1
+Sequential Calculation: 3.141593
+This is -0.000000 away from the correct value of PI.
+
+ParallelCalculation: 0.000000
+This is -3.141593 away from the correct value of PI.
+
+Number of iterations: 5000000000, Number of Threads: 1
+
+Parallel calculation is INVALID!
+Sequential Time: 5.925177, Parallel Time: 0.000000, Speedup: inf
+
+-----------------------------------------------------------
+$ ./pthreads_pi 5000000000 1
+Sequential Calculation: 3.141593
+This is -0.000000 away from the correct value of PI.
+
+Parallel Calculation: 3.141593
+This is -0.000000 away from the correct value of PI.
+
+Number of iterations: 5000000000, Number of Threads: 1
+
+Parallel calculation is VALID!
+Sequential Time: 5.926286, Parallel Time: 5.942069, Speedup: 0.997344
+
+-----------------------------------------------------------
+$ ./pi-openmp 5000000000 1
+Sequential Calculation: 3.141593
+This is -0.000000 away from the correct value of PI.
+
+Parallel Calculation: 3.141593
+This is -0.000000 away from the correct value of PI.
+
+Number of iterations: 5000000000, Number of Threads: 1
+
+Parallel calculation is VALID!
+Sequential Time: 5.936511, Parallel Time: 6.675144, Speedup: 0.889346
+
+-----------------------------------------------------------
+$ ./pthreads_pi 5000000000 2
+Sequential Calculation: 3.141593
+This is -0.000000 away from the correct value of PI.
+
+Parallel Calculation: 3.141593
+This is -0.000000 away from the correct value of PI.
+
+Number of iterations: 5000000000, Number of Threads: 2
+
+Parallel calculation is VALID!
+Sequential Time: 5.937962, Parallel Time: 2.998139, Speedup: 1.980549
+
+-----------------------------------------------------------
+$ ./pi-openmp 5000000000 2
+Sequential Calculation: 3.141593
+This is -0.000000 away from the correct value of PI.
+
+Parallel Calculation: 3.141593
+This is -0.000000 away from the correct value of PI.
+
+Number of iterations: 5000000000, Number of Threads: 2
+
+Parallel calculation is VALID!
+Sequential Time: 5.931805, Parallel Time: 3.375686, Speedup: 1.757215
+
+-----------------------------------------------------------
+$ ./pthreads_pi 5000000000 4
+Sequential Calculation: 3.141593
+This is -0.000000 away from the correct value of PI.
+
+Parallel Calculation: 3.141593
+This is -0.000000 away from the correct value of PI.
+
+Number of iterations: 5000000000, Number of Threads: 4
+
+Parallel calculation is VALID!
+Sequential Time: 5.920786, Parallel Time: 1.913557, Speedup: 3.094126
+
+-----------------------------------------------------------
+$ ./pi-openmp 5000000000 4
+Sequential Calculation: 3.141593
+This is -0.000000 away from the correct value of PI.
+
+Parallel Calculation: 3.141593
+This is -0.000000 away from the correct value of PI.
+
+Number of iterations: 5000000000, Number of Threads: 4
+
+Parallel calculation is VALID!
+Sequential Time: 5.925517, Parallel Time: 2.027871, Speedup: 2.922038
+
+-----------------------------------------------------------
+$ ./pthreads_pi 5000000000 8
+Sequential Calculation: 3.141593
+This is -0.000000 away from the correct value of PI.
+
+Parallel Calculation: 3.141593
+This is -0.000000 away from the correct value of PI.
+
+Number of iterations: 5000000000, Number of Threads: 8
+
+Parallel calculation is VALID!
+Sequential Time: 5.925499, Parallel Time: 1.508208, Speedup: 3.928834
+
+-----------------------------------------------------------
+$ ./pi-openmp 5000000000 8
+Sequential Calculation: 3.141593
+This is -0.000000 away from the correct value of PI.
+
+Parallel Calculation: 3.141593
+This is -0.000000 away from the correct value of PI.
+
+Number of iterations: 5000000000, Number of Threads: 8
+
+Parallel calculation is VALID!
+Sequential Time: 5.924946, Parallel Time: 1.674010, Speedup: 3.539373
+
+-----------------------------------------------------------
+$ ./pthreads_pi 5000000000 16
+Sequential Calculation: 3.141593
+This is -0.000000 away from the correct value of PI.
+
+Parallel Calculation: 3.141593
+This is -0.000000 away from the correct value of PI.
+
+Number of iterations: 5000000000, Number of Threads: 16
+
+Parallel calculation is VALID!
+Sequential Time: 5.937811, Parallel Time: 1.599174, Speedup: 3.713049
+
+-----------------------------------------------------------
+$ ./pi-openmp 5000000000 16
+Sequential Calculation: 3.141593
+This is -0.000000 away from the correct value of PI.
+
+Parallel Calculation: 3.141593
+This is -0.000000 away from the correct value of PI.
+
+Number of iterations: 5000000000, Number of Threads: 16
+
+Parallel calculation is VALID!
+Sequential Time: 5.929392, Parallel Time: 1.673702, Speedup: 3.542681
