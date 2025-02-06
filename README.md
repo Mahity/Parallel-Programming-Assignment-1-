@@ -25,7 +25,7 @@ Part (b): A model for determining when parallelization is profitable based on th
 
 Measuring the performance of the STREAM benchmark (copy, scale, add, and triad) using varying numbers of OpenMP threads (1, 2, 4, 8, 16). Performance data are collected on the provided virtual machine.
 
-##Problem 4: Estimating π using Pthreads and OpenMP
+## Problem 4: Estimating π using Pthreads and OpenMP
 
 Part 1: Implementing a parallel program to estimate π using Pthreads. Performance metrics (speedup and efficiency) are collected, and the program is run for various numbers of threads (1, 2, 4, 8, 16).
 Part 2: Rewriting the program using OpenMP, and repeating the analysis for speedup and efficiency.
